@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&display=swap');
+:root {
+    /* Cores */
+    --bottom-color: #00030c;
+    --white-primary: #FFFFFF;
+    --white-secondary: #C0C0C0;
+    --red-button: #EC2F46;
+
+    /* Fontes */
+    --font-primary:"Bebas Neue", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+
+body {
+    color: var(--white-primary);
+    background-color: var(--bottom-color);
+    font-family: var(--font-secondary);
+}
+
+
+.container__caixar {
+    margin: 0 4em;
+}
+
+.titulo_principal{
+    color: var(--red-button);
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.principal{
+    background-image: url("/assets/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.texto_principal {
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.75rem;
+}
+
+.container__botao {
+    background-color: var(--red-button);
+    color: var(--white-primary);
+    border-radius: 8px;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    display: block;
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--white-primary);
+    font-size: 1.25rem;
+}
+
+.container__disclaimer {
+    color: var(--white-secondary);
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: 0.75rem;
+    font-style: normal;
+
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 8em;
+}
+
+.secundario__imagem {
+    width: 65%;
+}
+
+.container_bio {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+.bio__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 0.2em;
+}
+
+.bio__descricao {
+    font-size: 1rem;
+    color: var(--white-secondary);
+}
+
+.dispositivos {
+    margin-top: 6em;
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 2.5rem;
+    margin-bottom: 0.1em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 1.5rem;
+    color: var(--white-primary);
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.rodape__logo {
+    color: var(--red-button);
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 5rem;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1em;
+    color: var(--white-primary);
+}
+
+.lista__link a:hover {
+    color: var(--red-button);
+}
+
+.rodape__texto {
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--white-secondary);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
